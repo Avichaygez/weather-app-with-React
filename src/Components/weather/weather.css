@@ -1,0 +1,115 @@
+.wheater {
+    height: 600px;
+    width: 750px;
+    border-radius: 46px;
+    background: linear-gradient(45deg, #c19c57, #e5b968);
+    box-shadow: 39px -39px 73px #564527,
+        -39px 39px 73px #ffff9b;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url("./aaa.webp");
+    background-repeat: no-repeat;
+    /* animation: myAnim 4s ease-in 0s 1 normal forwards; */
+}
+
+.cityName {
+    color: white;
+    font-size: 5em;
+
+    margin-bottom: 20px;
+}
+.degree {
+    color: white;
+    font-size: 7em;
+    margin-bottom: 10px;
+}
+.TempMinMax {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.visibility{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.humidity {
+    color: white;
+    font-size: 2.5em;
+}
+#search{
+    font-size: larger;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border: 0px;
+    background-color: #e5b96800;
+    border-radius: 25px;
+    height: 50px;
+    width: 400px;
+}
+#search:focus{
+    outline: none !important;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    border: 0px ;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(19, 18, 18);
+    opacity: 1; /* Firefox */
+    text-align: center;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(20, 19, 19);
+    text-align: center;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(17, 16, 16);
+    text-align: center;
+  }
+  button{
+    font-size: larger;
+    border: 0px;
+    background-color: #e5b96800;
+    height: 40px;
+    border-radius: 30px;
+  }
+  .validation{
+    margin-top: 200px;
+    font-size: xx-large;
+    color: white;
+  }
+
+
+  @keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
